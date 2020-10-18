@@ -10,7 +10,7 @@ Action Creator => Action => dispatch => Middleware => Reducers => State
 
 ## Action Creator Rules
 
-    - must return the action JS plain object OR a function when a middleware is mounted
+    - must return the action JS plain object OR a function when a middleware is used
     - the action object must have a 'type' property
     - the action object can optionally have a 'payload' property
 
