@@ -17,8 +17,8 @@ Action Creator => Action => dispatch => Middleware => Reducers => State
 ## Reducers Rules
 
     - must return any value beside the 'undefined'
-    - produce 'STATE' using only the previous 'STATE' and an 'ACTION'
-    - are pure function (the return value is only determined by its input values: previous 'STATE' and 'ACTION')
+    - produce 'STATE' using only the previous 'STATE' and 'ACTION'
+    - are pure function (the return value is only determined by its input values without side effects)
     - must not mutate the 'STATE' input
 
 ## React-Redux library
